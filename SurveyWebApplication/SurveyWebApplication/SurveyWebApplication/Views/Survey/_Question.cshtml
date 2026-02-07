@@ -1,0 +1,71 @@
+﻿@using SurveyWebApplication.Models.SurveyViewModels
+@model QuestionViewModel
+
+<div class="question-block"
+     data-question-id="@Model.QuestionId"
+     data-mandatory="@Model.IsMandatory">
+    @{
+        var qNo = ViewData["QuestionNumber"] as int? ?? 0;
+    }
+    <label class="question-text">
+        <span class="question-no">@qNo.</span>
+        @Model.QuestionText
+        @if (Model.IsMandatory)
+        {
+            <span class="required">*</span>
+        }
+    </label>
+
+    @if (Model.TypeCode == "SINGLE_SELECT")
+    {
+        foreach (var opt in Model.Options)
+        {
+            <div>
+                <input type="radio"
+                       name="q_@Model.QuestionId"
+                       value="@opt.OptionId" />
+                @opt.OptionText
+            </div>
+        }
+    }
+    else if (Model.TypeCode == "MULTI_SELECT")
+    {
+        foreach (var opt in Model.Options)
+        {
+            <div>
+                <input type="checkbox"
+                       name="q_@Model.QuestionId"
+                       value="@opt.OptionId" />
+                @opt.OptionText
+            </div>
+        }
+    }
+    else if (Model.TypeCode == "LONG_ANSWER")
+    {
+        <textarea class="form-control"
+              rows="4"
+              name="q_@Model.QuestionId"
+              maxlength="@Model.AnswerMaxLength"></textarea>
+    }
+    else if (Model.TypeCode == "STAR_RATING")
+    {
+        int min = ViewBag.MinRating ?? 1;
+        int max = ViewBag.MaxRating ?? 5;
+
+        <div class="star-rating">
+            @for (int i = max; i >= min; i--)
+            {
+                <input type="radio"
+                       id="star_@(i)_@(Model.QuestionId)"
+                       name="q_@Model.QuestionId"
+                       value="@i" />
+                <label for="star_@(i)_@(Model.QuestionId)">★</label>
+            }
+        </div>
+    }
+
+    <!-- Validation message -->
+    <div class="mandatory-msg">
+        This question is required
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@using SurveyWebApplication.Models.SurveyViewModels
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model QuestionViewModel
+
+<div class="mb-3">
+    <label><strong>@Model.QuestionText</strong></label>
+
+    @if (Model.TypeCode == "TEXT")
+    {
+        <textarea class="form-control"
+              maxlength="2000"
+              required="@Model.IsMandatory"></textarea>
+    }
+    else if (Model.TypeCode == "SINGLE")
+    {
+        foreach (var opt in Model.Options)
+        {
+            <div>
+                <input type="radio"
+                       name="q_@Model.QuestionId"
+                       required="@Model.IsMandatory" />
+                @opt.OptionText
+            </div>
+        }
+    }
+    else if (Model.TypeCode == "MULTI")
+    {
+        foreach (var opt in Model.Options)
+        {
+            <div>
+                <input type="checkbox" />
+                @opt.OptionText
+            </div>
+        }
+    }
+    else if (Model.TypeCode == "RATING")
+    {
+        <input type="number"
+               min="1"
+               max="5"
+               class="form-control"
+               required="@Model.IsMandatory" />
+    }
+</div>

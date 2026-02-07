@@ -1,0 +1,416 @@
+﻿@using SurveyWebApplication.Models.SurveyViewModels
+@model SurveyViewModel
+
+@{
+    int sectionIndex = ViewBag.SectionIndex ?? 0;
+    int questionIndex = ViewBag.QuestionIndex ?? 0;
+
+    var orderedSections = Model.Sections
+        .OrderBy(s => s.DisplayOrder)
+        .ToList();
+
+    bool hasSections = orderedSections.Any();
+    bool surveyCompleted = hasSections && sectionIndex >= orderedSections.Count;
+
+    int totalQuestions = Model.Sections.Sum(s => s.Questions.Count);
+}
+
+<div class="survey-backdrop">
+    <div class="survey-card">
+
+        @if (!orderedSections.Any())
+        {
+            <div class="text-center">
+                <h3 class="fw-bold text-warning">Survey Not Available</h3>
+                <p class="text-muted">
+                    This survey has no sections or questions configured yet.
+                </p>
+
+                <a class="btn btn-green mt-4"
+                   asp-controller="Survey"
+                   asp-action="List">
+                    Back to Surveys
+                </a>
+            </div>
+        }
+        else if (surveyCompleted)
+        {
+            <script>
+                // ✅ Clear saved answers after survey completion
+                sessionStorage.removeItem("survey_answers");
+            </script>
+
+            <div class="text-center">
+                <h3 class="fw-bold">Survey Completed 🎉</h3>
+                <p class="text-muted">Thank you for completing the survey.</p>
+
+                <a class="btn btn-green mt-4"
+                   asp-controller="Survey"
+                   asp-action="List">
+                    Back to Surveys
+                </a>
+            </div>
+        }
+        else
+        {
+            var sec = orderedSections[sectionIndex];
+            var orderedQuestions = sec.Questions.OrderBy(q => q.DisplayOrder).ToList();
+
+            QuestionViewModel currentQuestion =
+            sec.IsSinglePage ? null : orderedQuestions.ElementAtOrDefault(questionIndex);
+
+            <!-- HEADER -->
+            <div class="survey-header text-center">
+                <h2 class="fw-bold">@Model.SurveyName</h2>
+                <p class="text-muted">@Model.SurveyDesc</p>
+            </div>
+
+            <!-- PROGRESS BAR (UNCHANGED UI) -->
+            <div class="progress my-4" style="height: 12px;">
+                <div id="progressBar"
+                     class="progress-bar bg-success"
+                     role="progressbar"
+                     style="width: 0%;"
+                     aria-valuemin="0"
+                     aria-valuemax="100">
+                </div>
+            </div>
+
+            <div class="text-end text-muted mb-3">
+                <span id="progressText">0%</span> completed
+            </div>
+
+            <!-- SECTION -->
+            <div class="section-header text-center">
+                <span class="badge badge-green px-3 py-2">
+                    Section @(sectionIndex + 1)
+                </span>
+                <h4 class="mt-3 fw-bold">@sec.SectionTitle</h4>
+                <p class="text-muted">@sec.SectionDesc</p>
+            </div>
+
+            <form method="post"
+                  asp-action="SubmitSection"
+                  asp-route-id="@Model.SurveyId"
+                  asp-route-sectionIndex="@sectionIndex"
+                  asp-route-questionIndex="@questionIndex">
+
+                @if (sec.IsSinglePage)
+                {
+                    @* foreach (var q in orderedQuestions)
+                    {
+                        @await Html.PartialAsync("_Question", q)
+                    } *@
+                    @for (int i = 0; i < orderedQuestions.Count; i++)
+                    {
+                        ViewData["QuestionNumber"] = i + 1;
+                        @await Html.PartialAsync("_Question", orderedQuestions[i])
+                    }
+                }
+                else if (currentQuestion != null)
+                {
+                    @* @await Html.PartialAsync("_Question", currentQuestion) *@
+                    {
+                        ViewData["QuestionNumber"] = questionIndex + 1;
+                    }
+                    @await Html.PartialAsync("_Question", currentQuestion)
+
+                }
+
+                <div class="d-flex justify-content-between mt-4">
+
+                    @{
+                        bool isFirstSection = sectionIndex == 0;
+                        int backSectionIndex = sectionIndex;
+                        int backQuestionIndex = questionIndex;
+                    }
+
+                    @if (isFirstSection)
+                    {
+                        <a class="btn btn-outline-secondary"
+                           asp-controller="Survey"
+                           asp-action="List">
+                            Back
+                        </a>
+                    }
+                    else
+                    {
+                        if (!sec.IsSinglePage && questionIndex > 0)
+                        {
+                            backSectionIndex = sectionIndex;
+                            backQuestionIndex = questionIndex - 1;
+                        }
+                        else
+                        {
+                            // Case 2: Moving to previous section
+                            var prevSection = orderedSections[sectionIndex - 1];
+
+                            backSectionIndex = sectionIndex - 1;
+
+                            backQuestionIndex = prevSection.IsSinglePage
+                            ? 0
+                            : prevSection.Questions.Count - 1; // ✅ LAST QUESTION ONLY HERE
+                        }
+
+
+                        <a class="btn btn-outline-secondary"
+                           asp-action="Index"
+                           asp-route-id="@Model.SurveyId"
+                           asp-route-sectionIndex="@backSectionIndex"
+                           asp-route-questionIndex="@backQuestionIndex">
+                            Back
+                        </a>
+                    }
+
+                <button type="submit" class="btn btn-green">
+                    @(sec.IsSinglePage
+                                        ? "Next Section"
+                                        : (questionIndex == orderedQuestions.Count - 1
+                                        ? "Next Section"
+                                        : "Next"))
+
+                </button>
+            </div>
+        </form>
+                }
+    </div>
+</div>
+
+<!-- ✅ ONLY NEW LOGIC: REAL-TIME QUESTION-BASED PROGRESS -->
+<script>
+    (function () {
+
+        const totalQuestions = @totalQuestions;
+        const progressBar = document.getElementById("progressBar");
+        const progressText = document.getElementById("progressText");
+        const STORAGE_KEY = "survey_answers";
+
+        function loadAnswers() {
+            return JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "{}");
+        }
+
+        function saveAnswers(answers) {
+            sessionStorage.setItem(STORAGE_KEY, JSON.stringify(answers));
+        }
+
+        // 🔥 NEW: RESTORE ANSWERS INTO UI
+        function restoreAnswers() {
+            const answers = loadAnswers();
+
+            Object.keys(answers).forEach(key => {
+                const value = answers[key];
+
+                document.querySelectorAll(`[name="${key}"]`).forEach(el => {
+
+                    if (el.type === "radio") {
+                        el.checked = el.value === value;
+                    }
+                    else if (el.type === "checkbox") {
+                        el.checked = value.split(",").includes(el.value);
+                    }
+                    else if (el.tagName === "TEXTAREA") {
+                        el.value = value;
+                    }
+                });
+            });
+        }
+
+        function updateProgress() {
+            const answers = loadAnswers();
+            const answeredCount = Object.keys(answers).length;
+
+            const percent = totalQuestions === 0
+                ? 0
+                : Math.round((answeredCount / totalQuestions) * 100);
+
+            progressBar.style.width = percent + "%";
+            progressBar.setAttribute("aria-valuenow", percent);
+            progressText.innerText = percent + "%";
+        }
+
+        // RADIO & CHECKBOX
+        document.addEventListener("change", function (e) {
+            const el = e.target;
+            if (!el.name || !el.name.startsWith("q_")) return;
+
+            const answers = loadAnswers();
+
+            if (el.type === "radio") {
+                answers[el.name] = el.value;
+            }
+            else if (el.type === "checkbox") {
+                const checked = Array.from(
+                    document.querySelectorAll(`[name="${el.name}"]:checked`)
+                ).map(x => x.value);
+
+                if (checked.length > 0) {
+                    answers[el.name] = checked.join(",");
+                } else {
+                    delete answers[el.name];
+                }
+            }
+
+            saveAnswers(answers);
+            updateProgress();
+        });
+
+        // TEXTAREA
+        document.addEventListener("input", function (e) {
+            const el = e.target;
+            if (el.tagName !== "TEXTAREA" || !el.name?.startsWith("q_")) return;
+
+            const answers = loadAnswers();
+
+            if (el.value.trim() !== "") {
+                answers[el.name] = el.value.trim();
+            } else {
+                delete answers[el.name];
+            }
+
+            saveAnswers(answers);
+            updateProgress();
+        });
+
+        // 🔥 IMPORTANT: CALL THESE ON PAGE LOAD
+        restoreAnswers();
+        updateProgress();
+
+    })();
+</script>
+
+
+
+<script>
+    document.querySelector("form")?.addEventListener("submit", function (e) {
+
+        let hasError = false;
+
+        document.querySelectorAll(".question-block").forEach(block => {
+
+            const isMandatory = block.dataset.mandatory === "True";
+            const errorMsg = block.querySelector(".mandatory-msg");
+
+            if (!isMandatory) {
+                errorMsg.style.display = "none";
+                return;
+            }
+
+            const inputs = block.querySelectorAll("input, textarea");
+            let answered = false;
+
+            inputs.forEach(input => {
+                if (
+                    (input.type === "radio" && input.checked) ||
+                    (input.type === "checkbox" && input.checked) ||
+                    (input.tagName === "TEXTAREA" && input.value.trim() !== "")
+                ) {
+                    answered = true;
+                }
+            });
+
+            if (!answered) {
+                hasError = true;
+                block.classList.add("mandatory-error");
+                errorMsg.style.display = "block";
+            } else {
+                block.classList.remove("mandatory-error");
+                errorMsg.style.display = "none";
+            }
+        });
+
+        if (hasError) {
+            e.preventDefault(); // 🚫 STOP navigation
+
+            document.querySelector(".mandatory-error")
+                ?.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+    });
+</script>
+
+
+<style>
+    .survey-backdrop {
+        min-height: 100vh;
+        background: #f4f6f8;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .survey-card {
+        background: #fff;
+        max-width: 800px;
+        width: 100%;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 20px 40px rgba(0,0,0,.12);
+    }
+
+    .btn-green {
+        background-color: #198754;
+        color: #fff;
+        border: none;
+    }
+
+        .btn-green:hover {
+            background-color: #157347;
+            color: #fff;
+        }
+
+    .badge-green {
+        background-color: #198754;
+        color: #fff;
+        font-size: 0.9rem;
+    }
+
+    .question-block {
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .question-text {
+        font-weight: 600;
+        display: block;
+    }
+
+    .required {
+        color: red;
+    }
+
+    .star-rating {
+        direction: rtl;
+        display: inline-flex;
+        margin-top: 8px;
+        font-size: 2rem;
+        align-self: flex-start;
+    }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            color: #ccc;
+            cursor: pointer;
+        }
+
+            .star-rating input:checked ~ label,
+            .star-rating label:hover,
+            .star-rating label:hover ~ label {
+                color: gold;
+            }
+
+    .mandatory-msg {
+        color: #dc3545;
+        font-size: 0.85rem;
+        margin-top: 6px;
+        display: none;
+    }
+
+    .mandatory-error {
+        border-left: 4px solid #dc3545;
+        padding-left: 12px;
+    }
+</style>

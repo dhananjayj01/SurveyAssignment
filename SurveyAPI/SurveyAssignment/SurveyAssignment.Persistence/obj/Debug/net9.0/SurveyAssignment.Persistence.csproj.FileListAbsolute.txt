@@ -1,0 +1,17 @@
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.AssemblyInfo.cs
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Persistence.deps.json
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Persistence.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Persistence.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Application.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Domain.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Application.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\bin\Debug\net9.0\SurveyAssignment.Domain.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAs.F0C23BD4.Up2Date
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\refint\SurveyAssignment.Persistence.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\SurveyAssignment.Persistence.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Persistence\obj\Debug\net9.0\ref\SurveyAssignment.Persistence.dll

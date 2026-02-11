@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\features\\surveyfeature\\command\\savesurveyanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|solutionrelative:surveyassignment.application\\features\\surveyfeature\\command\\savesurveyanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|solutionrelative:surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4B87902-F200-4739-873D-8C9435E92425}|SurveyAssignment.Persistence\\SurveyAssignment.Persistence.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.persistence\\repositories\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B87902-F200-4739-873D-8C9435E92425}|SurveyAssignment.Persistence\\SurveyAssignment.Persistence.csproj|solutionrelative:surveyassignment.persistence\\repositories\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F7AD081A-6AB5-43EE-A63E-5057E187FE87}|SurveyAssignment.Domain\\SurveyAssignment.Domain.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AD081A-6AB5-43EE-A63E-5057E187FE87}|SurveyAssignment.Domain\\SurveyAssignment.Domain.csproj|solutionrelative:surveyassignment.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|solutionrelative:surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|solutionrelative:surveyassignment.application\\features\\surveyfeature\\query\\getsurveydefinitionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7AD081A-6AB5-43EE-A63E-5057E187FE87}|SurveyAssignment.Domain\\SurveyAssignment.Domain.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7AD081A-6AB5-43EE-A63E-5057E187FE87}|SurveyAssignment.Domain\\SurveyAssignment.Domain.csproj|solutionrelative:surveyassignment.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\features\\surveyfeature\\command\\savesurveyanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|solutionrelative:surveyassignment.application\\features\\surveyfeature\\command\\savesurveyanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\dtos\\questionoptiondtos\\questionoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4B87902-F200-4739-873D-8C9435E92425}|SurveyAssignment.Persistence\\SurveyAssignment.Persistence.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B87902-F200-4739-873D-8C9435E92425}|SurveyAssignment.Persistence\\SurveyAssignment.Persistence.csproj|solutionrelative:surveyassignment.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFBBF330-4711-4602-BDB2-3FF57DFEDA62}|SurveyAssignment.Application\\SurveyAssignment.Application.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.application\\dtos\\surveyresponsedtos\\surveyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{F7AD081A-6AB5-43EE-A63E-5057E187FE87}|SurveyAssignment.Domain\\SurveyAssignment.Domain.csproj|solutionrelative:surveyassignment.domain\\entities\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|c:\\users\\dell\\desktop\\surveyassignment\\surveyapi\\surveyassignment\\surveyassignment.api\\surveyassignment.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5756212B-FED9-49B7-B50B-AC5AC980F263}|SurveyAssignment.API\\SurveyAssignment.API.csproj|solutionrelative:surveyassignment.api\\surveyassignment.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -150,56 +150,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SurveyController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Controllers\\SurveyController.cs",
-              "RelativeDocumentMoniker": "SurveyAssignment.API\\Controllers\\SurveyController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Controllers\\SurveyController.cs",
-              "RelativeToolTip": "SurveyAssignment.API\\Controllers\\SurveyController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:49:26.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SurveyRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Persistence\\Repositories\\SurveyRepository.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Persistence\\Repositories\\SurveyRepository.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Persistence\\Repositories\\SurveyRepository.cs",
               "RelativeToolTip": "SurveyAssignment.Persistence\\Repositories\\SurveyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T16:06:34.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GetSurveyDefinitionQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQueryHandler.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQueryHandler.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQueryHandler.cs",
               "RelativeToolTip": "SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQueryHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T15:58:29.809Z"
+              "WhenOpened": "2026-01-10T15:58:29.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\Question.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\Question.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\Question.cs",
               "RelativeToolTip": "SurveyAssignment.Domain\\Entities\\Question.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T15:46:33.473Z"
+              "WhenOpened": "2026-01-10T15:46:33.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GetSurveyDefinitionQuery.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQuery.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Features\\SurveyFeature\\Query\\GetSurveyDefinitionQuery.cs",
@@ -212,20 +202,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SaveSurveyAnswerCommand.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommand.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommand.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommand.cs",
               "RelativeToolTip": "SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T16:00:25.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Program.cs",
+              "RelativeDocumentMoniker": "SurveyAssignment.API\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Program.cs",
+              "RelativeToolTip": "SurveyAssignment.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:50:08.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SurveyAssignment.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\appsettings.json",
+              "RelativeToolTip": "SurveyAssignment.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-10T16:58:09.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SurveyController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Controllers\\SurveyController.cs",
+              "RelativeDocumentMoniker": "SurveyAssignment.API\\Controllers\\SurveyController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Controllers\\SurveyController.cs",
+              "RelativeToolTip": "SurveyAssignment.API\\Controllers\\SurveyController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:49:26.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "QuestionOptionDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\QuestionOptionDtos\\QuestionOptionDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\QuestionOptionDtos\\QuestionOptionDto.cs",
@@ -237,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "QuestionDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\QuestionDtos\\QuestionDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\QuestionDtos\\QuestionDto.cs",
@@ -249,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Survey.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\Survey.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\Survey.cs",
@@ -261,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SaveSurveyAnswerCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommandHandler.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Features\\SurveyFeature\\Command\\SaveSurveyAnswerCommandHandler.cs",
@@ -273,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Profiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Profiles\\MappingProfile.cs",
@@ -285,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "QuestionType.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\QuestionType.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\QuestionType.cs",
@@ -297,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "QuestionOption.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\QuestionOption.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\QuestionOption.cs",
@@ -309,19 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Program.cs",
-              "RelativeDocumentMoniker": "SurveyAssignment.API\\Program.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Program.cs",
-              "RelativeToolTip": "SurveyAssignment.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:50:08.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SurveyResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\SurveyResponseDtos\\SurveyResponseDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\SurveyResponseDtos\\SurveyResponseDto.cs",
@@ -333,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Persistence\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Persistence\\Contexts\\ApplicationDbContext.cs",
@@ -345,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PersistenceServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Persistence\\PersistenceServiceRegistration.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Persistence\\PersistenceServiceRegistration.cs",
@@ -357,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ApplicationServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\ApplicationServiceRegistration.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\ApplicationServiceRegistration.cs",
@@ -369,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ConfigurationDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\ConfigurationDtos\\ConfigurationDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\ConfigurationDtos\\ConfigurationDto.cs",
@@ -381,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\Configuration.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\Configuration.cs",
@@ -393,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SurveyDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\SurveyDtos\\SurveyDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\SurveyDtos\\SurveyDto.cs",
@@ -405,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "SurveyResponse.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\SurveyResponse.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\SurveyResponse.cs",
@@ -417,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "QuestionResponse.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\QuestionResponse.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\QuestionResponse.cs",
@@ -429,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "QuestionResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\QuestionResponseDtos\\QuestionResponseDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\QuestionResponseDtos\\QuestionResponseDto.cs",
@@ -441,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SaveSurveyAnswerDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\SaveSurveyAnswerDtos\\SaveSurveyAnswerDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\SaveSurveyAnswerDtos\\SaveSurveyAnswerDto.cs",
@@ -453,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ISurveyRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Contracts\\Persistence\\ISurveyRepository.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Contracts\\Persistence\\ISurveyRepository.cs",
@@ -465,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SectionDto.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Application\\Dtos\\SectionDtos\\SectionDto.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Application\\Dtos\\SectionDtos\\SectionDto.cs",
@@ -477,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Section.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Entities\\Section.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Entities\\Section.cs",
@@ -501,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SurveyAssignment.API\\Properties\\launchSettings.json",
@@ -513,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.Domain\\Common\\ApiResponse.cs",
               "RelativeDocumentMoniker": "SurveyAssignment.Domain\\Common\\ApiResponse.cs",
@@ -522,18 +538,6 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T12:53:09.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\appsettings.json",
-              "RelativeDocumentMoniker": "SurveyAssignment.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\SurveyAssignment\\SurveyAPI\\SurveyAssignment\\SurveyAssignment.API\\appsettings.json",
-              "RelativeToolTip": "SurveyAssignment.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-10T16:58:09.525Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,11 @@
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\bin\Debug\net9.0\SurveyAssignment.Domain.deps.json
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\bin\Debug\net9.0\SurveyAssignment.Domain.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\bin\Debug\net9.0\SurveyAssignment.Domain.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.AssemblyInfo.cs
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\refint\SurveyAssignment.Domain.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\SurveyAssignment.Domain.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Domain\obj\Debug\net9.0\ref\SurveyAssignment.Domain.dll

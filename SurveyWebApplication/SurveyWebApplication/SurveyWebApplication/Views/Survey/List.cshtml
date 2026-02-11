@@ -1,0 +1,144 @@
+﻿@using SurveyWebApplication.Models.SurveyViewModels
+@model List<SurveyListViewModel>
+
+<div class="survey-spotlight-page">
+    <h1 class="page-title">Choose a Survey</h1>
+    <p class="page-subtitle">Your feedback helps us improve continuously</p>
+
+    <div class="survey-spotlight-list">
+        @{
+            int index = 1;
+        }
+
+        @foreach (var s in Model)
+        {
+            <div class="survey-spotlight-item">
+                <div class="survey-index">
+                    @index.ToString("D2")
+                </div>
+
+                <div class="survey-body">
+                    <h3 class="survey-name">@s.SurveyName</h3>
+                    <p class="survey-desc">@s.SurveyDesc</p>
+
+                    <a class="survey-start-btn"
+                       href="@Url.Action("Index", "Survey", new { id = s.SurveyId })">
+                        Start Survey →
+                    </a>
+                </div>
+            </div>
+
+            index++;
+        }
+    </div>
+</div>
+
+<script>
+    // Reset answers ONLY on survey list page
+    sessionStorage.removeItem("survey_answers");
+</script>
+
+<style>
+    /* ===== PAGE ===== */
+    .survey-spotlight-page {
+        background: linear-gradient(180deg, #f9fafb, #eef2f7);
+        padding: 70px 20px;
+    }
+
+    .page-title {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: #111827;
+    }
+
+    .page-subtitle {
+        margin-top: 8px;
+        margin-bottom: 50px;
+        color: #6b7280;
+        font-size: 1.05rem;
+    }
+
+    /* ===== LIST ===== */
+    .survey-spotlight-list {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /* ===== ITEM ===== */
+    .survey-spotlight-item {
+        display: flex;
+        gap: 28px;
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 36px 40px;
+        box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .survey-spotlight-item:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 35px 70px rgba(0,0,0,0.12);
+        }
+
+    /* ===== INDEX ===== */
+    .survey-index {
+        font-size: 3rem;
+        font-weight: 900;
+        color: #198754;
+        opacity: 0.15;
+        line-height: 1;
+    }
+
+    /* ===== BODY ===== */
+    .survey-body {
+        flex: 1;
+    }
+
+    .survey-name {
+        margin: 0 0 10px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #111827;
+    }
+
+    .survey-desc {
+        margin: 0 0 22px;
+        color: #4b5563;
+        max-width: 720px;
+        line-height: 1.6;
+    }
+
+    /* ===== BUTTON ===== */
+    .survey-start-btn {
+        display: inline-block;
+        background: linear-gradient(135deg, #198754, #0f5132);
+        color: #fff;
+        padding: 12px 26px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+        .survey-start-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(25,135,84,0.45);
+        }
+
+    /* ===== RESPONSIVE ===== */
+    @@media (max-width: 768px) {
+        .survey-spotlight-page {
+            padding: 50px 20px;
+        }
+
+        .survey-spotlight-item {
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        .survey-index {
+            font-size: 2.4rem;
+        }
+    }
+</style>

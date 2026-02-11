@@ -1,0 +1,15 @@
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.AssemblyInfo.cs
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\bin\Debug\net9.0\SurveyAssignment.Application.deps.json
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\bin\Debug\net9.0\SurveyAssignment.Application.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\bin\Debug\net9.0\SurveyAssignment.Application.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\bin\Debug\net9.0\SurveyAssignment.Domain.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\bin\Debug\net9.0\SurveyAssignment.Domain.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAs.E78B900C.Up2Date
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\refint\SurveyAssignment.Application.dll
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\SurveyAssignment.Application.pdb
+C:\Users\dell\Desktop\SurveyAssignment\SurveyAPI\SurveyAssignment\SurveyAssignment.Application\obj\Debug\net9.0\ref\SurveyAssignment.Application.dll
